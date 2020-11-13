@@ -1,6 +1,16 @@
 <?xml version="1.0" ?>
 <report name="Intellij Coverage Report">
 <package name="test">
+<class name="test.Printer" sourcefilename="Printer.java">
+<method name="&lt;init&gt;" desc="()V">
+<counter type="LINE" covered="0" missed="1"/>
+<counter type="BRANCH" covered="0" missed="0"/>
+</method>
+<method name="println" desc="([Ljava/lang/Object;)V">
+<counter type="LINE" covered="4" missed="0"/>
+<counter type="BRANCH" covered="1" missed="1"/>
+</method>
+</class>
 <class name="test.Main" sourcefilename="Main.java">
 <method name="main" desc="([Ljava/lang/String;)V">
 <counter type="LINE" covered="2" missed="0"/>
@@ -15,6 +25,13 @@
 <line nr="3" cb="0" mb="0" ci="0" mi="1"/>
 <line nr="5" cb="0" mb="0" ci="1" mi="0"/>
 <line nr="6" cb="0" mb="0" ci="1" mi="0"/>
+</sourcefile>
+<sourcefile name="Printer.java">
+<line nr="3" cb="0" mb="0" ci="0" mi="1"/>
+<line nr="5" cb="1" mb="0" ci="1" mi="0"/>
+<line nr="6" cb="0" mb="0" ci="1" mi="0"/>
+<line nr="8" cb="0" mb="1" ci="1" mi="0"/>
+<line nr="9" cb="0" mb="0" ci="1" mi="0"/>
 </sourcefile>
 </package>
 </report>
