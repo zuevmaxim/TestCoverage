@@ -1,0 +1,4 @@
+comment:
+  layout: "header"
+  require_changes: false
+  behavior: once
